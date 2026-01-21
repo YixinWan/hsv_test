@@ -1,0 +1,14 @@
+name: hsv_test
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy>=1.24.0
+  - matplotlib>=3.7.0
+  - pillow>=10.0.0
+  - jupyter>=1.0.0
+  - ipywidgets>=8.0.0
+  - pip
+  - pip:
+    - opencv-python>=4.8.0
